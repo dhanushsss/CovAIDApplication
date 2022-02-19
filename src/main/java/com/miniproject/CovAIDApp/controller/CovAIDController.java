@@ -84,6 +84,8 @@ public class CovAIDController {
 		mav.addObject("list", list);
 		return mav;
 	}
+
+	//git 
 	
 	@RequestMapping("/delete/{reqid}")
 	public ModelAndView delete(@PathVariable("reqid") int reqid) {
